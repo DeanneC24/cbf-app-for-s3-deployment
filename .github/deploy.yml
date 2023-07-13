@@ -9,6 +9,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+      # test
       - name: Yarn Install
         run: yarn install
       - name: Production Build
